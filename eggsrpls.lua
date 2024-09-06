@@ -150,7 +150,7 @@ _app = {
 
 crops.connect_enc(_app.norns)
 crops.connect_key(_app.norns)
-crops.connect_screen(_app.norns, 60)
+crops.connect_screen(_app.norns, 15)
     
 --init/cleanup
 
