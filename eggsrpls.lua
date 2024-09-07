@@ -89,6 +89,9 @@ eggs.img_path = norns.state.lib..'eggs/lib/img/'
 rpls.crow_outputs_enabled = false
 rpls.grid_graphics = false
 
+rpls.set_param = eggs.set_param
+rpls.of_param = eggs.of_param
+
 App = {}
 
 function App.norns()
@@ -150,7 +153,7 @@ _app = {
 
 crops.connect_enc(_app.norns)
 crops.connect_key(_app.norns)
-crops.connect_screen(_app.norns, 15)
+crops.connect_screen(_app.norns, 60)
     
 --init/cleanup
 
