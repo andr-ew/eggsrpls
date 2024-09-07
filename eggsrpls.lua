@@ -89,6 +89,9 @@ eggs.img_path = norns.state.lib..'eggs/lib/img/'
 rpls.crow_outputs_enabled = false
 rpls.grid_graphics = false
 
+rpls.set_param = eggs.set_param
+rpls.of_param = eggs.of_param
+
 App = {}
 
 function App.norns()
