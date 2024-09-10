@@ -27,3 +27,10 @@ I'll add more info someday. weeeeeeee
 - crow
 - [just friends](https://www.whimsicalraps.com/products/just-friends) (synth mode)
 - anything supported by [nb](https://llllllll.co/t/n-b-et-al-v0-1/60374)
+
+## install
+
+in the maiden [REPL](https://monome.org/docs/norns/image/wifi_maiden-images/install-repl.png), type:
+
+```
+;install https://github.com/andr-ew/eggsrpls/releases/download/latest/complete-source-code.zip
